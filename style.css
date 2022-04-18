@@ -1,0 +1,34 @@
+/* body {
+    background-color: rgb(19, 87, 147);
+} */
+
+#cv-form {
+    /* display: none; */
+    background-color: aliceblue;
+}
+
+#cv-template {
+    display: none;
+    background-color: aliceblue;
+}
+
+.myimg {
+    border-radius: 50%;
+    margin-left: 2px;
+    border-image: auto;
+}
+
+
+/* .profile {
+    margin-left: 58px;
+    /* background-color: aqua; */
+
+
+/* font-size: large; */
+
+
+/* } */
+
+.background {
+    background-color: aquamarine;
+}

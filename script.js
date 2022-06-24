@@ -98,6 +98,23 @@ function generateCV() {
 
     document.getElementById('aqT').innerHTML = str1;
 
+    // code for setting image ......
+    let file = document.getElementById('imagefield').files[0];
+    console.log(file);
+
+    let reader = new FileReader();
+    reader.readAsDataURL(file);
+    console.log(reader.result);
+
+    // set iamge to template
+    reader.onloadend = function() {
+        document.getElementById('imgTemplate').src = reader.result;
+    };
+
+
+
+
+    // ...................................................
     document.getElementById('cv-form').style.display = "none";
     document.getElementById('cv-template').style.display = "block";
 

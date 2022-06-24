@@ -36,6 +36,11 @@
                     <textarea type="text" id="addressfield" placeholder="enter contact " class="form-control" rows="5"></textarea>
                 </div>
 
+                <div class="form-group mt-2">
+                    <label for="imagefield">select your image</label>
+                    <input id="imagefield" type="file" class="form-control">
+                </div>
+
                 <p class="text-secondary my-3">Important Links</p>
                 <div class="form-group mt-2">
                     <label for="fbfield">facebook</label>
@@ -55,7 +60,7 @@
                 <h3>professional information</h3>
 
                 <div class="form-group mt-2">
-                    <label for="">objective</label>
+                    <label for="">skills and intersets</label>
                     <textarea id="objectivefield" placeholder="enter here " class="form-control"></textarea>
                 </div>
 
@@ -86,7 +91,7 @@
         </div>
 
         <div class="container text-center mt-2">
-            <button onclick="generateCV()" class="btn btn-primary btn-lg">Generate cv</button>
+            <button onclick="generateCV()" class="btn btn-primary btn-lg" id="gnrcv">Generate cv</button>
 
         </div>
 
@@ -101,7 +106,8 @@
 
             <div class="col-md-4 text-center py-3 background">
                 <!-- first column -->
-                <img src="https://p.kindpng.com/picc/s/24-248729_stockvader-predicted-adig-user-profile-image-png-transparent.png" alt="" class="img-fluid myimg" />
+                <img src="https://www.clipartkey.com/mpngs/m/107-1076987_user-staff-man-profile-person-icon-circle-png.png" alt="https://image.shutterstock.com/image-photo/young-handsome-man-beard-wearing-260nw-1768126784.jpg" class="img-fluid myimg" id="imgTemplate"
+                />
 
                 <div class="container ">
                     <p id="nameT1" class="profile">Albert Einstein</p>
@@ -133,7 +139,7 @@
 
                 <div class="card">
                     <div class="card-header background">
-                        <h3>Objective</h3>
+                        <h3>skills and intersets </h3>
                     </div>
                     <div class="card-body">
                         <p id="objectiveT">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi necessitatibus aperiam cupiditate odio molestiae iste incidunt obcaecati quaerat sequi optio possimus exercitationem, numquam, ratione natus officiis error

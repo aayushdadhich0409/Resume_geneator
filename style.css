@@ -1,21 +1,60 @@
-/* body {
-    background-color: rgb(19, 87, 147);
-} */
-
 #cv-form {
     /* display: none; */
-    background-color: aliceblue;
+    /* background-color: rgb(107, 176, 237);
+    margin-left: 100px; */
+    background: rgba(5, 121, 38, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 135, 54, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba(9, 0, 0, 0.18);
 }
 
 #cv-template {
     display: none;
-    background-color: aliceblue;
+    background-color: rgb(219, 230, 239);
 }
 
 .myimg {
-    border-radius: 50%;
-    margin-left: 2px;
+    border-radius: 140%;
+    margin-left: 40px;
+    width: 300px;
+    height: 320px;
     border-image: auto;
+}
+
+#gnrcv {
+    animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+    15% {
+        transform: rotateZ(-1deg);
+    }
+    20% {
+        transform: rotateZ(1deg);
+    }
+    25% {
+        transform: rotateZ(-1deg);
+    }
+    30% {
+        transform: rotateZ(0deg);
+    }
+    35% {
+        transform: rotateZ(-4deg);
+    }
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+body {
+    background: rgb(80, 181, 209);
 }
 
 
@@ -30,5 +69,5 @@
 /* } */
 
 .background {
-    background-color: aquamarine;
+    background-color: rgb(89, 142, 174);
 }
